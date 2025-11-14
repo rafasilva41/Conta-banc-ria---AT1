@@ -18,7 +18,7 @@ public class ContaPoupanca extends Conta implements OperacoesBancarias{
         }
         saldo -= valor;
         destino.depositar(valor);
-            System.out.println("R$" + valor + " transferidos para " + destino.getTitular());
+            System.out.println("R$" + valor + " transferidos para " + destino.getTitular() + ".");
 
     }
 
@@ -30,3 +30,4 @@ public class ContaPoupanca extends Conta implements OperacoesBancarias{
         System.out.println("Saldo atual: R$" + getSaldo());
     }
 }
+
